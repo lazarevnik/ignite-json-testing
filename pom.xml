@@ -1,0 +1,51 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>ignite.examples</groupId>
+  <artifactId>person-example</artifactId>
+  <version>1.0</version>
+  <name>example-person</name>
+  <description>Example of using ignite for database caching</description>
+  
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+  
+  <dependencies>
+  	<dependency>
+  		<groupId>org.apache.ignite</groupId>
+  		<artifactId>ignite-core</artifactId>
+  		<version>2.5.0-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.ignite</groupId>
+  		<artifactId>ignite-spring</artifactId>
+  		<version>2.5.0-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+      <groupId>org.postgresql</groupId>
+      <artifactId>postgresql</artifactId>
+      <version>42.2.5</version>
+    </dependency>
+  	<dependency>
+  		<groupId>com.fasterxml.jackson.core</groupId>
+  		<artifactId>jackson-core</artifactId>
+  		<version>2.9.5</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.fasterxml.jackson.core</groupId>
+  		<artifactId>jackson-databind</artifactId>
+  		<version>2.9.5</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.fasterxml.jackson.core</groupId>
+  		<artifactId>jackson-annotations</artifactId>
+  		<version>2.9.5</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>org.apache.ignite</groupId>
+  		<artifactId>ignite-indexing</artifactId>
+  		<version>2.5.0-SNAPSHOT</version>
+  	</dependency>
+  </dependencies>
+</project>
